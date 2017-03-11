@@ -6,7 +6,7 @@ title: Research and development
 Here is some example documentation added to the repo.
 
 <ul>
-{% for org in site.data.orgs %}
+{% for org in site.data.mockorgs %}
   <li>
     <a href="{{ org.url }}">
       {{ org.name }}
